@@ -2,6 +2,8 @@
  * @author mrdoob / http://mrdoob.com/
  */
 
+module.exports = Stats;
+
 var Stats = function () {
 
 	var startTime = Date.now(), prevTime = startTime;
