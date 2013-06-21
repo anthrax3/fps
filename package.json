@@ -1,6 +1,7 @@
 {
   "name": "fps-component",
   "repo": "component/fps",
+  "version": "0.0.1",
   "description": "fps counter",
   "keywords": ["fps", "performance", "stats"],
   "main": "src/Stats.js",
