@@ -4,7 +4,7 @@
 
 module.exports = Stats;
 
-var Stats = function () {
+function Stats() {
 
 	var startTime = Date.now(), prevTime = startTime;
 	var ms = 0, msMin = Infinity, msMax = 0;
