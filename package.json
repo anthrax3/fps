@@ -1,9 +1,13 @@
 {
-  "name": "fps",
+  "name": "fps-component",
   "repo": "component/fps",
   "description": "fps counter",
   "keywords": ["fps", "performance", "stats"],
-  "scripts": ["src/Stats.js"],
   "main": "src/Stats.js",
+  "component": {
+    "scripts": {
+      "fps/index.js": "src/Stats.js"
+    }
+  },
   "license": "MIT"
 }
